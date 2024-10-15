@@ -8,3 +8,20 @@ Content-Type: application/json
 {
     "nome": "Tomar remedio"
 }
+
+### listando as terefas
+GET http://localhost:5296/api/tarefas/listar
+
+### buscar terafa pelo id
+GET http://localhost:5296/api/tarefas/buscar/2 
+
+### deletar tarefa pelo id
+GET http://localhost:5296/api/tarefas/deletar/3 
+
+### alterar tarefa
+PUT http://localhost:5296/api/tarefas/alterar/4
+Content-Type: application/json
+
+{
+    "nome": "Aula de pilates"
+}
