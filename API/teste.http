@@ -1,2 +1,10 @@
 ### testando a raiz do projeto
-http://localhost:5296
+GET http://localhost:5296
+
+### cadastrar tarefa
+POST http://localhost:5296/api/tarefas/cadastrar 
+Content-Type: application/json
+
+{
+    "nome": "Tomar remedio"
+}
